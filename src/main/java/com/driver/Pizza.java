@@ -28,14 +28,8 @@ public class Pizza {
     public void addExtraCheese(){
         // your code goes here
         if(extraCheese==true)return;
-        if(isVeg) {
             bill = bill + "Extra Cheese Added: 80\n";
             price += 80;
-        }
-        else {
-            bill = bill + "Extra Cheese Added: 80\n";
-            price += 80;
-        }
         extraCheese=true;
     }
 
@@ -47,8 +41,8 @@ public class Pizza {
             price += 70;
         }
         else {
-            bill = bill + "Extra Toppings Added: 80\n";
-            price += 80;
+            bill = bill + "Extra Toppings Added: 120\n";
+            price += 120;
         }extratopping=true;
     }
 
